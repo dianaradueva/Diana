@@ -1,6 +1,6 @@
 #art-main
 {
-   background: #FFFFFF url('images/page.png') bottom center no-repeat scroll;
+   background: #FFFFFF url bottom center no-repeat scroll;
    margin:0 auto;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -110,7 +110,7 @@ ul.art-vmenu a
 
 .art-postcontent h1
 {
-   color: #96D42B;
+   color: #DF5E80;
    margin-top: 21px;
    margin-bottom: 21px;
    font-size: 32px;
@@ -119,6 +119,7 @@ ul.art-vmenu a
 
 .art-blockcontent h1
 {
+color: #DF5E80;
    margin-top: 21px;
    margin-bottom: 21px;
    font-size: 32px;
@@ -383,7 +384,6 @@ li p, .art-postcontent li p, .art-blockcontent li p
     top: -7px;
     width: 430px;
     height: 314px;
-    background-image: url('images/object0.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 0;
@@ -423,7 +423,7 @@ text-decoration: none;
 letter-spacing: 1px;
   padding: 0;
   margin: 0;
-  color: #FD890D !important;
+  color: #DF5E80 !important;
   white-space: nowrap;
 }
 .art-slogan
@@ -442,6 +442,7 @@ letter-spacing: 1px;
   transform: rotate(0deg);
   z-index: 102;
   white-space: nowrap;
+
 }
 
 .art-slogan, 
@@ -457,7 +458,7 @@ font-style: normal;
 text-decoration: none;
   padding: 0;
   margin: 0;
-  color: #90AF23 !important;
+  color: #D8C046 !important;
 }
 
 
@@ -468,13 +469,11 @@ text-decoration: none;
    background-repeat: no-repeat;
    height: 300px;
    position:relative;
-   background-image: url('images/header.jpg');
    background-position: center top;
 }
 
 .custom-responsive .art-header
 {
-   background-image: url('images/header.jpg');
    background-position: center top;
 }
 
@@ -625,7 +624,7 @@ ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
 
 ul.art-hmenu>li>a
 {
-   background: #5D831B;
+   background: #B3A635;
    background: rgba(93, 131, 27, 0.3);
    -webkit-border-radius:15px;
    -moz-border-radius:15px;
