@@ -1,0 +1,130 @@
+<html >
+<head>
+  <meta charset="UTF-8">
+    <title>Beautify</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+	<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+</head>
+<body>
+    <header>
+	<div class="topnav" id="myTopnav">
+  <a class="active" href="index.html">HOME</a>
+  <a href="behandelingen.html">BEHANDELINGEN</a>
+  <a href="prijslijst.html">PRIJSLIJST</a>
+  <a href="contact.html">CONTACT</a>
+</div>
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="images/Bio.jpg" >
+        <div class="col-wide">
+          <h1>Beautify</h1>
+          <h2>Microdermabrasie</h2>
+          <p>Verwijdert de bovenste dode huidlaag en stimuleert de aanmaak van 
+		  de huidcellen en collageen. Deze behandeling bestaat uit:
+		  - Reiniging - Korte microdermabrasie peeling - Mesotherapy – Dagcrème <br>
+		  <a class= "contact-info"  href="behandelingen.html">Lees meer</a> </p>
+		  <p></p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+       
+        <section class="work">
+          <div class="content-wrap">
+          
+            <div class="col-wide">
+			<div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div>
+    
+       
+   
+			<section>
+				
+								<div>
+									<img src="images/adres.png" alt="" <h4>Adres</h4> </img>
+								</div>
+								<div>
+                                 <p>Groteweg 89, 9500 Geraardsbergen</p>
+								</div>
+					<div>
+									<img src="images/email.png" alt="" <h4>Email</h4> </img>
+								</div>
+								<div>
+                                 <p>annemie_bruylandt@yahoo.com</p>
+								</div>
+						<div>
+									<img src="images/call.png" alt="" <h4>GSM</h4> </img>
+								</div>
+								<div>
+                                 <p>+32 476845315</p>
+								</div>
+									</div>
+						<div>
+									<img src="images/tijd.png" alt="" <h4></h4> </img>
+								</div>
+								<div>
+                                 <p>Enkel op afspraak</p>
+								</div>
+			</section>
+	
+
+    </* AIzaSyBxEf7JuYNhHieKO6hTLlkVkk5cBZ0whLM*/>
+
+</div>
+
+            </div>
+
+    
+
+     <div id="map"></div>
+    <script>
+      function initialize() {
+        var uluru = {lat: 50.7655904, lng: 3.864413};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBxEf7JuYNhHieKO6hTLlkVkk5cBZ0whLM&callback=initialize">
+    </script>
+
+           
+        </section>
+
+
+       
+   </main>
+
+
+    <footer>
+      <div class="content-wrap">
+        <h2>Laten we contact houden!</h2>
+
+        <div class="contact-info">
+            <a href="mailto:annemie_bruylandt@yahoo.com">CONTACT</a>
+            <a href="behandelingen.html">BEHANDELINGEN</a>
+            <a href="prijslijst.html">PRIJSLIJST</a>
+            <a href="http://www.facebook.com/pg/Beautify-Schoonheidssalon">Facebook</a>
+        </div>
+
+        <p>Designed by Diana Radueva</p>
+      </div>
+    </footer>
+</body>
+</html>
