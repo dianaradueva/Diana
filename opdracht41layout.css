@@ -1,4 +1,13 @@
-    h1{ color: aliceblue;
+
+ div{
+        background-color: transparent;
+     width: 300px;
+        border: 25px solid grey;
+        padding: 25px;
+        margin: 25px;
+    }
+
+h1{ color: aliceblue;
     font-family: cursive;
     border-color: aqua;
     font-size: 300%;
