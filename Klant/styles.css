@@ -1,94 +1,114 @@
 ﻿html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-}
-h1, h2 {
-  font-family: 'Caveat', cursive;
-  font-weight: 400;
-}
-h1 {
-  font-size: 80px;
-}
-h2 {
-  font-size: 40px;
-  margin-top: 0;
-}
-a {
-  color: #EF233C;
-}
-a:hover {
-  text-decoration: none;
-}
-.content-wrap {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 50px;
-  overflow: hidden;
-  width=170%;
-}
-.col-narrow {
-  width: 30%;
-  float: left;
-  min-height: 175px;
-}
-.col-wide {
-  width: 70%;
-  float: left;
-  padding-left: 20px;
-  min-height: 175px;
+    box-sizing: border-box;
 }
 
-header, footer {
-  background: #2B2D42;
-  color: #8D99AE;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-/* header */
-header h1, header h2, header h3{
-  color: #EDF2F4;
-  margin: 0;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
-.profile-img {
-  border-radius: 50%;
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
 }
-/* footer */
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    width=170%;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+header,
 footer {
-  text-align: center;
+    background: #8b475d;
+    color: #8D99AE;
 }
+
+
+header h1,
+header h2,
+header h3 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+
+footer {
+    text-align: center;
+}
+
 .contact-info a {
-  padding: 10px;
-  display: inline-block;
-   color: #f2f2f2;
+    padding: 10px;
+    display: inline-block;
+    color: #f2f2f2;
 }
 
 p {
-	  padding: 10px;	
+    padding: 10px;
 }
 
-.work {
-  background: #EDF2F4;
+.startpaginaFoto {
+    background: #EDF2F4;
 }
 
-.education {
-  background: #8D99AE;
+.welkom {
+    background: #F8E0F7;
 
 }
+
 .bgimg {
-  background-image: url('../images/div.jpg');
+    background-image: url('../images/div.jpg');
 }
 
 .topnav {
-    background-color:#2B2D42;
+    background-color: #8b668b;
     overflow: hidden;
-	padding: 8px 600px;
+    padding: 8px 600px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -98,20 +118,12 @@ p {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #4CAF50;
-    color: black;
-}
 
-/* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #cdb5cd;
     color: white;
 }
-.padimg{
-  padding: 14px 16px;
+
+.padimg {
+    padding: 14px 16px;
 }
-
-
-
