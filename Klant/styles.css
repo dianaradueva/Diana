@@ -127,3 +127,14 @@ p {
 .padimg {
     padding: 14px 16px;
 }
+
+#hoofdpagimg {
+    width: 850;
+    height: 500;
+    @media screen and (max-width: 500) {
+        .left, .main, .right {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+
+    }
