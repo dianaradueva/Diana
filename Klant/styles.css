@@ -44,13 +44,13 @@ a:hover {
     width=170%;
 }
 
-.col-narrow {
+.bloemfoto {
     width: 30%;
     float: left;
     min-height: 175px;
 }
 
-.col-wide {
+.tekstboven {
     width: 70%;
     float: left;
     padding-left: 20px;
@@ -90,8 +90,14 @@ p {
     padding: 10px;
 }
 
-.startpaginaFoto {
+.startpagina {
     background: #EDF2F4;
+}
+
+.divfoto {
+    width: 900;
+    height: 510;
+
 }
 
 .welkom {
@@ -131,10 +137,11 @@ p {
 #hoofdpagimg {
     width: 850;
     height: 500;
-    @media screen and (max-width: 500) {
-        .left, .main, .right {
-            width: 100%;
-            /* The width is 100%, when the viewport is 800px or smaller */
-        }
-
+    float: center;
+    @media screen and (max-width: 100%) .left, .main, .right {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
     }
+}
+
+.inhoudstartpg {}
