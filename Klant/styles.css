@@ -145,3 +145,29 @@ p {
 }
 
 .inhoudstartpg {}
+
+.promotie1 {
+    padding: 14px 16px;
+}
+
+#titelpromotie1 {
+    font-size: 20;
+}
+
+#titelpromotie2 {
+    font-size: 20;
+}
+
+.promotie2 {
+    padding: 14px 16px;
+}
+
+#titelpromotie3 {
+    font-size: 20;
+}
+
+.promotie3 {
+    padding: 14px 16px;
+}
+
+.content-prijslijst {}
