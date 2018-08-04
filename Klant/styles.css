@@ -140,11 +140,16 @@ p {
     float: center;
     @media screen and (max-width: 100%) .left, .main, .right {
         width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
+
     }
 }
 
 .inhoudstartpg {}
+
+.promoties {
+    width: 500;
+    height: 800;
+}
 
 .promotie1 {
     padding: 14px 16px;
@@ -170,4 +175,38 @@ p {
     padding: 14px 16px;
 }
 
-.content-prijslijst {}
+.content-prijslijst {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.prijslijst {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 35px;
+    border: 2px solid black;
+
+}
+
+#titelprijslijst {
+    font-size: 30;
+    text-align: center;
+}
+
+.gelaatsverzorging {
+    width: 40%;
+}
+
+.prijsgelaat {
+    width: 10%;
+}
+
+.ped&man {
+    width: 40%;
+}
+
+.prijsped&man {
+    width: 10%;
+}
