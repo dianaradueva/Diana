@@ -13,6 +13,10 @@ body {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
+
 h1,
 h2 {
     font-family: 'Caveat', cursive;
@@ -30,11 +34,9 @@ h2 {
 
 a {
     color: #EF233C;
+
 }
 
-a:hover {
-    text-decoration: none;
-}
 
 .content-wrap {
     max-width: 950px;
@@ -113,6 +115,7 @@ p {
     background-color: #8b668b;
     overflow: hidden;
     padding: 8px 600px;
+    float: inherit;
 }
 
 .topnav a {
@@ -147,8 +150,17 @@ p {
 .inhoudstartpg {}
 
 .promoties {
-    width: 500;
-    height: 800;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 35px;
+    border: 2px solid black;
+}
+
+.inhoudpromoties {
+    width: 100%;
+    height: 100%;
+
 }
 
 .promotie1 {
@@ -177,7 +189,7 @@ p {
 
 .content-prijslijst {
     width: 100%;
-    height: 100%;
+    height: 150%;
     padding: 25px;
 }
 
@@ -197,16 +209,108 @@ p {
 
 .gelaatsverzorging {
     width: 40%;
+    height: 345;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .prijsgelaat {
     width: 10%;
+    height: 345;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .ped&man {
     width: 40%;
+    float: right;
+
 }
 
 .prijsped&man {
     width: 10%;
+
+}
+
+.gel {
+    width: 40%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsgel {
+    width: 10%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.makeup {
+    width: 40%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsmakeup {
+    width: 10%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#gelnagels {
+    font-weight: bold;
+
+}
+
+#harsen {
+    font-weight: bold;
+
+}
+
+#gelaatsverzorging {
+    font-weight: bold;
+
+}
+
+#wimpers {
+    font-weight: bold;
+
+}
+
+#pedicure {
+    font-weight: bold;
+
+}
+
+.gelnagels {
+    float: left;
+}
+
+.harsen {
+    float: left;
+}
+
+.gelaatsverzorgingen {
+    float: left;
+}
+
+.wimpers {
+    float: left;
+}
+
+.pedicure {
+    float: left;
+}
+
+#designed {
+    text-align: center;
 }
