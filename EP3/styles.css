@@ -1,0 +1,395 @@
+﻿html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+.content-welkom {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    width=170%;
+}
+
+.content-footer {
+    padding: 30px;
+}
+
+.bloemfoto {
+    width: 200px;
+    float: left;
+    min-height: 175px;
+}
+
+.tekstboven {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+header,
+footer {
+    background: #8b475d;
+    color: #8D99AE;
+}
+
+header h1,
+header h3 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: #f2f2f2;
+}
+
+.startpagina {
+    background: #EDF2F4;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.divfoto {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block;
+
+}
+
+
+#hoofdpagimg {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    align-items: center;
+
+}
+
+.welkom {
+    background: #F8E0F7;
+}
+
+.topnav {
+    background-color: #8b668b;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a.active {
+    background-color: #cdb5cd;
+    color: white;
+}
+
+
+.promoties {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 35px;
+    border: 2px solid black;
+}
+
+.inhoudpromoties {
+    width: 100%;
+    height: 100%;
+
+}
+
+.promotie1 {
+    padding: 14px 16px;
+}
+
+#titelpromotie1 {
+    font-size: 20;
+}
+
+.promotie2 {
+    padding: 14px 16px;
+}
+
+#titelpromotie2 {
+    font-size: 20;
+}
+
+.promotie3 {
+    padding: 14px 16px;
+}
+
+#titelpromotie3 {
+    font-size: 20;
+}
+
+.content-prijslijst {
+    width: 100%;
+    height: 140%;
+    padding: 25px;
+}
+
+.prijslijst {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 35px;
+    border: 2px solid black;
+
+}
+
+#titelprijslijst {
+    font-size: 30;
+    text-align: center;
+}
+
+.gelaatsverzorging {
+    width: 40%;
+    height: 345;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsgelaat {
+    width: 10%;
+    height: 345;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.ped&man {
+    width: 40%;
+    float: right;
+
+}
+
+.prijsped&man {
+    width: 10%;
+
+}
+
+.gel {
+    width: 40%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsgel {
+    width: 10%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.makeup {
+    width: 40%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsmakeup {
+    width: 10%;
+    height: 200;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#gelnagels {
+    font-weight: bold;
+
+}
+
+#harsen {
+    font-weight: bold;
+
+}
+
+#gelaatsverzorging {
+    font-weight: bold;
+
+}
+
+#wimpers {
+    font-weight: bold;
+
+}
+
+#pedicure {
+    font-weight: bold;
+
+}
+
+.gelnagels {
+    float: left;
+}
+
+.harsen {
+    float: left;
+}
+
+.gelaatsverzorgingen {
+    float: left;
+}
+
+.wimpers {
+    float: left;
+}
+
+.pedicure {
+    float: left;
+}
+
+#designed {
+    text-align: center;
+}
+
+.epilaties {
+    width: 40%;
+    height: 300;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijsepilatie {
+    width: 10%;
+    height: 300;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.lichaamsverzorging {
+    width: 40%;
+    height: 300;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prijslichaamsverzorging {
+    width: 10%;
+    height: 300;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    height: auto;
+    width: 250px;
+    min-width: 100px;
+
+}
+
+.content-behandelingen {
+    width: 100%;
+    height: 160%;
+    padding: 25px;
+}
+
+.content-contact {
+    width: 100%;
+    height: 120%;
+    padding: 25px;
+}
+
+.form {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    padding: 60px;
+    border: 2px solid black;
+}
+
+label {
+    padding: 10px;
+    margin: 20;
+
+}
+
+input {
+    padding: 10px 50px;
+    margin-bottom: 20;
+}
+
+#knopVerzenden {
+    margin: 10;
+    padding: 10px;
+
+}
+
+#opmerking {
+    margin: 20;
+    width: 700px;
+    height: 100px;
+}
+
+#afspraak {
+
+    font-family: 'Caveat', cursive;
+}
+
+#textContact {
+    font-size: 20;
+    font-family: 'Caveat', cursive;
+}
